@@ -1,5 +1,3 @@
-all: test
-
 test:
 	mkdir -p build
 	gcc -std=c11 -Wall -Wextra -Wpedantic -I./sources -I./unity -c sources/calculator.c -o build/calculator.o
