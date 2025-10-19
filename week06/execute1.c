@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <errno.h>
 #include <string.h>
-#define N 2
+#define N 4
 
 
 void unix_error(char *msg) {
